@@ -1,0 +1,201 @@
+.navbar{
+    height:70px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+.carlogo{
+    
+    height: 50px;
+    width:100px;
+}
+.logo{
+    float: left;
+    font-size:50px;
+    margin-right: auto;
+    margin-left: 25px;
+}
+.navsearch{
+    display:flex;
+    justify-content: flex-start;
+    margin-right:32%;
+}
+.navsearch:hover{
+    border:2px solid #f76d2b;
+}
+.variation{
+    height: 46px;
+    width: 75px;
+}
+.search{
+    height:40px ;
+    width:300px;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f76d2b;
+    width: 35px;
+    text-align:center;
+    
+}
+.homefind{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    background-color: #333332;
+    a{
+        text-decoration: none;
+        font-style: none;
+        color: white;
+    }
+    a:hover{
+        color: #f76d2b;
+    }
+}
+.ratio{
+    margin-right: 25px;
+    color: white;
+}
+
+
+.herosection{
+    height: 600px;
+}
+
+/*product section now*/
+.productsection{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.box{
+    height:490px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: transform 0.3s ease, border 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    #price {
+        background-color: #f76d2b;
+        width: 50%;
+        height: 50px;
+        text-align: center;
+        padding: 5px;
+        margin: 0 auto; 
+    }
+}
+.box:hover{
+    border: 1px solid #f76d2b;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.img1{
+    height:320px;
+    background-image: url("./2.1.png");
+    background-size: cover;
+}
+.img2{
+    height:320px;
+
+padding-left: 20px;
+    background-image:url("./2.2.png");
+    background-size: cover;
+}
+.img3{
+       height:320px;
+
+
+    background-image:url("./2.33.png");
+    background-size: cover;
+}
+.img4{
+    height:320px;
+
+    background-image:url("./2.4.png");
+    background-size: cover;
+}
+.img5{
+    height:320px;
+
+    background-image:url("./2.5.png");
+    background-size: cover;
+}
+
+.img6{
+    height:320px;
+
+    background-image:url("./2.6.png");
+    background-size: cover;
+}
+.img7{
+    height:320px;
+
+    background-image:url("./2.7.png");
+    background-size: cover;
+}
+.img8{
+    height:320px;
+
+    background-image:url("./2.33.png");
+    background-size: cover;
+}
+.foott{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+    display: block;
+    text-decoration: none;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    a{
+        color: white;
+        font-size: larger;
+        text-decoration: none;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    a:hover{
+color: #f76d2b; 
+   }
+}
+.copy{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    justify-content: center;
+    p:hover{
+        color: #f76d2b;
+    }
+}

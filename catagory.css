@@ -1,0 +1,304 @@
+.navbar{
+    height:70px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+.carlogo{
+    
+    height: 50px;
+    width:100px;
+}
+.logo{
+    float: left;
+    font-size:50px;
+    margin-right: auto;
+    margin-left: 25px;
+}
+.navsearch{
+    display:flex;
+    justify-content: flex-start;
+    margin-right:32%;
+}
+.navsearch:hover{
+    border:2px solid #f76d2b;
+}
+.variation{
+    height: 46px;
+    width: 75px;
+}
+.search{
+    height:40px ;
+    width:300px;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f76d2b;
+    width: 35px;
+    text-align:center;
+    
+}
+.homefind{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    background-color: #333332;
+    a{
+        text-decoration: none;
+        font-style: none;
+        color: white;
+    }
+    a:hover{
+        color: #f76d2b;
+    }
+}
+.ratio{
+    margin-right: 25px;
+    color: white;
+}
+.mostselling{
+    height: 70px;
+    width: 100%;
+    margin-top: 5px;
+    background-color:#f76d2b;
+    display: flex;
+    justify-content: center;}
+.heado{
+        height: 66px;
+        width: 250px;
+        color:black;
+        font-size: 25px;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+.herosection{
+    height: 600px;
+}
+
+
+/*product section now*/
+.productsection{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.box{
+    height:350px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: transform 0.3s ease, border 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    #price {
+        background-color: #f76d2b;
+        width: 50%;
+        height: 50px;
+        text-align: center;
+        padding: 5px;
+        margin: 0 auto; 
+    }
+}
+.box:hover{
+    border: 1px solid #f76d2b;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.img1{
+    height:300px;
+    background-image: url("./Audi\ A6.jfif");
+    background-size: cover;
+}
+.img2{
+    height:300px;
+padding-left: 20px;
+    background-image:url("./lambooo.jpg");
+    background-size: cover;
+}
+.img3{
+    height:300px;
+
+    background-image:url("./download1-fotor-bg-remover-2024102634620.png");
+    background-size: cover;
+}
+.img4{
+    height:300px;
+
+    background-image:url("./36.png");
+    background-size: cover;
+}
+.img5{
+    height:300px;
+
+    background-image:url("./pgr.png");
+    background-size: cover;
+}
+
+.img6{
+    height:300px;
+
+    background-image:url("./3rt2.png");
+    background-size: cover;
+}
+.img7{
+    height:300px;
+
+    background-image:url("./shrm.png");
+    background-size: cover;
+}
+.img8{
+    height:300px;
+
+    background-image:url("./porche\ 3d.png");
+    background-size: cover;
+}
+
+
+
+.img1{
+    height:250px;
+    background-image: url("./roll.jfif");
+    background-size: cover;
+}
+.img2{
+    height:250px;
+padding-left: 20px;
+    background-image:url("./Astinmartinlogo.png");
+    background-size: cover;
+}
+.img3{
+    height:250px;
+
+    background-image:url("./jaguarlogo.png");
+    background-size: cover;
+}
+.img4{
+    height:250px;
+
+    background-image:url("./porchelogo.png");
+    background-size: cover;
+}
+.img5{
+    height:250px;
+
+    background-image:url("./bmwlogo.png");
+    background-size: cover;
+}
+
+.img6{
+    height:250px;
+
+    background-image:url("./audilogo.png");
+    background-size: cover;
+}
+.img7{
+    height:250px;
+
+    background-image:url("./mercelogo.png");
+    background-size: cover;
+}
+.img8{
+    height:250px;
+
+    background-image:url("./bentelylogo1.png");
+    background-size: cover;
+}
+.img9{
+    height:250px;
+
+    background-image:url("/ferrarilogo.png");
+    background-size: cover;
+}
+.img10{
+    height:250px;
+
+    background-image:url("./bugattilogo.png");
+    background-size: cover;
+}
+.img11{
+    height:250px;
+
+
+    background-image:url("./teslalogo.png");
+    background-size: cover;
+}
+.img12{
+    height:250px;
+
+    background-image:url("./lambologo.png");
+    background-size: cover;
+}
+.img13{
+    height:200px;
+
+    background-image:url("./mcleranlogo.png");
+    background-size: cover;
+}
+
+.foott{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+    display: block;
+    text-decoration: none;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    a{
+        color: white;
+        font-size: larger;
+        text-decoration: none;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    a:hover{
+color: #f76d2b; 
+   }
+}
+.copy{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    justify-content: center;
+    p:hover{
+        color: #f76d2b;
+    }
+}
+.carlogo{
+    height: 70px;
+    width: 90px;
+    background-image: url("./mylogopk.jfif");
+    background-size: cover;
+    padding-right: 0;
+    margin-right: 0;
+}
